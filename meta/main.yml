@@ -1,5 +1,5 @@
 galaxy_info:
-  author: Eduardo Rozario
+  author: Eduardo Rozario and Talita Bernardes
   description: PHP FPM 7.1
   company: Rivendel Tecnologia
 
@@ -7,10 +7,14 @@ galaxy_info:
 
   min_ansible_version: 1.2
 
-  # platforms:
-  #- name: ubuntu
-  #   versions:
-  #   - 16.04
+  platforms:
+  - name: ubuntu
+    versions:
+    - 16.04
+
+  categories:
+  - php-fpm7.1
+  - ubuntu
 
   galaxy_tags: []
 
