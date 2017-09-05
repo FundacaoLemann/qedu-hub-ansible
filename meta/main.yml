@@ -1,6 +1,6 @@
 galaxy_info:
-  author:Eduardo Rozario and Talita Bernardes
-  description: phpfpm
+  author: Eduardo Rozario and Talita Bernardes
+  description: phpfpm-7.1
   company: Rivendel Tecnologia
   license: MIT
   min_ansible_version: 1.2
