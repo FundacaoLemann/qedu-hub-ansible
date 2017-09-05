@@ -1,21 +1,14 @@
 galaxy_info:
-  author: Eduardo Rozario and Talita Bernardes
-  description: PHP FPM 7.1
+  author:Eduardo Rozario and Talita Bernardes
+  description: phpfpm-7.1
   company: Rivendel Tecnologia
-
-  license: license (GPLv2, CC-BY, etc)
-
+  license: MIT
   min_ansible_version: 1.2
-
   platforms:
   - name: ubuntu
-    versions:
-    - 16.04
+  
 
   categories:
-  - php-fpm7.1
+  - phpfpm
   - ubuntu
-
-  galaxy_tags: []
-
 dependencies: []
