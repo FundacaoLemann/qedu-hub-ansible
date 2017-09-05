@@ -1,11 +1,11 @@
 galaxy_info:
   author: Eduardo Rozario and Talita Bernardes
-  description: phpfpm on Ubuntu 16
+  description: phpfpm7.1 on Ubuntu 16.04
   company: Rivendel Tecnologia
   license: MIT
   min_ansible_version: 1.2
   platforms:
-  - name: ubuntu
+  - name: ubuntu:16.04
   
 
   categories:
