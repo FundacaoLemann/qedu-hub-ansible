@@ -3,10 +3,6 @@ Role Qedu User Create
 
 This role add user and generate your key for the access in remotes serves
 
-Requirements
-------------
-
-
 
 Role Variables
 --------------
