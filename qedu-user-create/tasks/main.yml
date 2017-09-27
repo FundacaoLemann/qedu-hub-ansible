@@ -18,7 +18,7 @@
     state: present
     line: '{{item.username}} ALL=(ALL) NOPASSWD: ALL'
   with_items: "{{ list }}"
-  when: ansible_distribution == "Ubuntu" or ansible_distribution == "Debian"
+  
 
 - name: Linux | Set content for authorized_keys
   shell: "cat  /home/{{item.username}}/.ssh/{{item.username}}.pem.pub >> /home/{{item.username}}/.ssh/authorized_keys"
